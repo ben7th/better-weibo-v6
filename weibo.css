@@ -86,8 +86,38 @@ body .WB_right_module .person_list li {
   body .WB_right_module .person_list li .con {
     margin-left: 66px; }
 
+body .WB_cardtitle_a .opt_box, body .WB_cardtitle_b .opt_box {
+  font-size: 14px; }
+
 body .more_txt {
   font-size: 14px; }
+body .WB_cardmore {
+  line-height: 48px;
+  height: 48px; }
+
+body .WB_info {
+  margin-bottom: 10px; }
+body .WB_media_wrap {
+  margin-top: 10px;
+  margin-bottom: 16px; }
+body .WB_from {
+  font-size: 14px; }
+body .WB_feed_handle .WB_row_line {
+  font-size: 14px; }
+body .WB_expand {
+  padding: 16px; }
+
+body .WB_left_nav .lev_Box h3.lev a {
+  font-size: 16px; }
+body .WB_left_nav .lev a {
+  font-size: 14px; }
+
+body #v6_pl_rightmod_noticeboard .WB_innerwrap {
+  font-size: 14px; }
+  body #v6_pl_rightmod_noticeboard .WB_innerwrap .title a {
+    display: block; }
+  body #v6_pl_rightmod_noticeboard .WB_innerwrap .opinion_type_list {
+    margin-top: 10px; }
 
 body #v6_pl_rightmod_recominfo > div[id] {
   display: none !important; }
@@ -104,5 +134,17 @@ body #v6_pl_content_publishertop .send_weibo .title_area .key {
 
 body #v6_pl_rightmod_updatev6 {
   display: none !important; }
+
+body .send_weibo {
+  margin-bottom: 0;
+  border-radius: 2px 2px 0 0; }
+body .WB_tab_a .tab_box .fr_box {
+  border-top-right-radius: 0; }
+body .WB_tab_a .tab li:first-child, body .WB_tab_a .tab li:nth-child(2) {
+  border-top-left-radius: 0; }
+body .WB_tab_a .tab li:nth-child(2) .t {
+  border-top-left-radius: 0; }
+body #v6_pl_content_homefeed > div > .WB_tab_a {
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.04), 1px 0 0 rgba(0, 0, 0, 0.04); }
 
 /*# sourceMappingURL=weibo.css.map */
