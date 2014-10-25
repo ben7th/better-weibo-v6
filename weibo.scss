@@ -1,0 +1,205 @@
+body {
+  // 调整 feed 间距
+  .WB_feed_detail {
+    padding: 16px 16px 16px 16px;
+  }
+  .WB_detail {
+    margin-left: 66px;
+    .WB_info {
+      padding-top: 0;
+    }
+  }
+
+  // 调整发言框区块内间距
+  #v6_pl_content_publishertop {
+    .send_weibo {
+      padding: 16px;
+      height: auto;
+      height: 195px; // 为了对齐高度，需要写死这个数值 // 原来的高度是 140
+
+      .title {
+        width:240px;
+        .W_swficon {
+          font-size:22px !important;
+        }
+      }
+
+      .func_area {
+        .func {width: 200px - 6px - 6px;}
+        .func {padding-top:16px;}
+        .kind {padding-top:15px;} // 原来的插入媒体按钮和公开按钮没对齐，调整成对齐的了
+      }
+      .input {
+        margin-top: 12px;
+      }
+
+      // 输入框高度，增加两个行距
+      .input {
+        height: 68px + 36px;
+        textarea {height: 68px + 36px;}
+      }
+    }
+  }
+
+  // 调整标签栏间距
+  #v6_pl_content_homefeed {
+    .WB_tab_a {
+      .tab_box_a {
+        height: auto;
+        .fr_box {
+          height:58px;
+          .WB_search_s {
+            margin-top: 16px;
+            margin-right: 16px; //原来是7px
+          }
+        }
+        .tab li {
+          height: 58px;
+          a .t{
+            height:51px;line-height:58px;//原来是31px 38px
+            font-size:14px;
+          } 
+        }
+      }
+    }
+  }
+}
+
+// 调整个人信息区域
+body {
+  #v6_pl_rightmod_myinfo {
+    .W_person_info {
+      // height 原来是 165
+      height: 227px; // delta = 62
+
+      .cover {
+        // height 原来是 75
+        height: 75px + 62px;
+
+        .headpic {
+          $w:100px; // 原来是 60
+          width:$w;height:$w;
+          margin-left: -$w/2;
+          bottom:0;
+
+          a img {
+            width:$w !important;
+            height:$w !important;
+          }
+        }
+
+        .icon_bed {
+          top:auto;
+          bottom:3px;
+        }
+      }
+      .WB_innerwrap {
+        padding-top:10px; // 原来是 16px
+        .nameBox {
+          padding-top: 0;
+        }
+        .user_atten {
+          margin-top:16px; // 原来是 10px
+        }
+      }
+    }
+  }
+}
+
+// 右侧栏标题框间距
+body {
+  .WB_cardtitle_b {
+    height:48px; // 原来是 38px
+    line-height:48px;
+  }
+}
+
+// 热门话题
+body {
+  ul.hot_topic {
+    font-size: 14px;
+  }
+  #v6_pl_rightmod_recominfo {
+    .WB_right_expand {
+      margin-top:10px;
+      margin-left:-6px;
+      margin-right:-6px;
+      .expand {
+        padding: 14px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// 热门微博
+body {
+  .apps_PCD_reco_index_right .WB_innerwrap {
+    padding: 16px;
+  }
+  .apps_PCD_reco_index_right .reco_li {
+    margin-top: 16px;
+    &:first-child {
+      margin-top: 6px;
+    }
+  }
+}
+
+// 可能感兴趣的人
+body {
+  .WB_right_module .person_list {
+    li {
+      padding:16px 0;
+      .con {
+        margin-left:66px;
+      }
+    }
+  }
+}
+
+
+// 查看更多
+body {
+  .more_txt {
+    font-size: 14px;
+  }
+}
+
+body {
+  // 隐藏广告
+  // 右侧边栏第一个广告
+  #v6_pl_rightmod_recominfo {
+    > div[id] {
+      display: none !important;
+    }
+
+    > .WB_cardwrap.S_bg2:last-child {
+      display: none;
+    }
+  }
+  // 右侧边栏第二个广告
+  #v6_pl_rightmod_ads36 {
+    display: none !important;
+  }
+  // 会员专区和明星动态
+  #v6_trustPagelet_recom_member {
+    display: none !important;
+  }
+  // 发言框下面的广告
+  #v6_pl_content_biztips {
+    display: none !important;
+  }
+  // 发言框上面的热门微博
+  #v6_pl_content_publishertop {
+    .send_weibo .title_area .key {
+      display: none !important;
+    }
+  }
+}
+
+// 隐藏新版微博介绍按钮
+body {
+  #v6_pl_rightmod_updatev6 {
+    display: none !important;
+  }
+}

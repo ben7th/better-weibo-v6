@@ -1,0 +1,108 @@
+body .WB_feed_detail {
+  padding: 16px 16px 16px 16px; }
+body .WB_detail {
+  margin-left: 66px; }
+  body .WB_detail .WB_info {
+    padding-top: 0; }
+body #v6_pl_content_publishertop .send_weibo {
+  padding: 16px;
+  height: auto;
+  height: 195px; }
+  body #v6_pl_content_publishertop .send_weibo .title {
+    width: 240px; }
+    body #v6_pl_content_publishertop .send_weibo .title .W_swficon {
+      font-size: 22px !important; }
+  body #v6_pl_content_publishertop .send_weibo .func_area .func {
+    width: 188px; }
+  body #v6_pl_content_publishertop .send_weibo .func_area .func {
+    padding-top: 16px; }
+  body #v6_pl_content_publishertop .send_weibo .func_area .kind {
+    padding-top: 15px; }
+  body #v6_pl_content_publishertop .send_weibo .input {
+    margin-top: 12px; }
+  body #v6_pl_content_publishertop .send_weibo .input {
+    height: 104px; }
+    body #v6_pl_content_publishertop .send_weibo .input textarea {
+      height: 104px; }
+body #v6_pl_content_homefeed .WB_tab_a .tab_box_a {
+  height: auto; }
+  body #v6_pl_content_homefeed .WB_tab_a .tab_box_a .fr_box {
+    height: 58px; }
+    body #v6_pl_content_homefeed .WB_tab_a .tab_box_a .fr_box .WB_search_s {
+      margin-top: 16px;
+      margin-right: 16px; }
+  body #v6_pl_content_homefeed .WB_tab_a .tab_box_a .tab li {
+    height: 58px; }
+    body #v6_pl_content_homefeed .WB_tab_a .tab_box_a .tab li a .t {
+      height: 51px;
+      line-height: 58px;
+      font-size: 14px; }
+
+body #v6_pl_rightmod_myinfo .W_person_info {
+  height: 227px; }
+  body #v6_pl_rightmod_myinfo .W_person_info .cover {
+    height: 137px; }
+    body #v6_pl_rightmod_myinfo .W_person_info .cover .headpic {
+      width: 100px;
+      height: 100px;
+      margin-left: -50px;
+      bottom: 0; }
+      body #v6_pl_rightmod_myinfo .W_person_info .cover .headpic a img {
+        width: 100px !important;
+        height: 100px !important; }
+    body #v6_pl_rightmod_myinfo .W_person_info .cover .icon_bed {
+      top: auto;
+      bottom: 3px; }
+  body #v6_pl_rightmod_myinfo .W_person_info .WB_innerwrap {
+    padding-top: 10px; }
+    body #v6_pl_rightmod_myinfo .W_person_info .WB_innerwrap .nameBox {
+      padding-top: 0; }
+    body #v6_pl_rightmod_myinfo .W_person_info .WB_innerwrap .user_atten {
+      margin-top: 16px; }
+
+body .WB_cardtitle_b {
+  height: 48px;
+  line-height: 48px; }
+
+body ul.hot_topic {
+  font-size: 14px; }
+body #v6_pl_rightmod_recominfo .WB_right_expand {
+  margin-top: 10px;
+  margin-left: -6px;
+  margin-right: -6px; }
+  body #v6_pl_rightmod_recominfo .WB_right_expand .expand {
+    padding: 14px;
+    font-size: 14px; }
+
+body .apps_PCD_reco_index_right .WB_innerwrap {
+  padding: 16px; }
+body .apps_PCD_reco_index_right .reco_li {
+  margin-top: 16px; }
+  body .apps_PCD_reco_index_right .reco_li:first-child {
+    margin-top: 6px; }
+
+body .WB_right_module .person_list li {
+  padding: 16px 0; }
+  body .WB_right_module .person_list li .con {
+    margin-left: 66px; }
+
+body .more_txt {
+  font-size: 14px; }
+
+body #v6_pl_rightmod_recominfo > div[id] {
+  display: none !important; }
+body #v6_pl_rightmod_recominfo > .WB_cardwrap.S_bg2:last-child {
+  display: none; }
+body #v6_pl_rightmod_ads36 {
+  display: none !important; }
+body #v6_trustPagelet_recom_member {
+  display: none !important; }
+body #v6_pl_content_biztips {
+  display: none !important; }
+body #v6_pl_content_publishertop .send_weibo .title_area .key {
+  display: none !important; }
+
+body #v6_pl_rightmod_updatev6 {
+  display: none !important; }
+
+/*# sourceMappingURL=weibo.css.map */
