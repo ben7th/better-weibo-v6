@@ -200,6 +200,19 @@ body .WB_notes a, body .WB_notes .wrap {
 body .WB_feed > .WB_cardwrap:first-child {
   border-radius: 0 0 2px 2px;
   box-shadow: -1px 0 0px rgba(0, 0, 0, 0.04), 1px 0 0px rgba(0, 0, 0, 0.04), 0 1px 0px rgba(0, 0, 0, 0.04); }
+body .WB_feed > .WB_notes {
+  margin-bottom: 0;
+  padding-top: 10px;
+  position: relative; }
+  body .WB_feed > .WB_notes .wrap {
+    background-color: #fff8bf;
+    border-radius: 2px;
+    position: relative;
+    z-index: 3; }
+  body .WB_feed > .WB_notes + .WB_cardwrap {
+    margin-top: -60px;
+    padding-top: 60px;
+    border-radius: 0 0 2px 2px; }
 
 body .WB_tab_a .tab li a .t {
   position: relative; }
@@ -238,7 +251,7 @@ body .WB_tab_a .tab_box_a .fr_box {
     background-color: rgba(0, 0, 0, 0.06);
     pointer-events: none; }
 body .WB_cardwrap[node-type=feed_list_timeTip] {
-  background-color: rgba(255, 255, 255, 0.8); }
+  opacity: 0.8; }
   body .WB_cardwrap[node-type=feed_list_timeTip] .WB_cardtitle_a {
     height: 40px;
     line-height: 40px;
