@@ -192,7 +192,7 @@ body .WB_notes {
       color: #866300; }
   body .WB_notes + .WB_feed {
     margin-top: -50px; }
-    body .WB_notes + .WB_feed .WB_cardwrap {
+    body .WB_notes + .WB_feed .WB_cardwrap:first-child {
       padding-top: 50px; }
 body .WB_notes a, body .WB_notes .wrap {
   height: 40px !important;
