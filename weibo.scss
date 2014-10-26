@@ -48,6 +48,7 @@ body {
         height: auto;
         .fr_box {
           height:58px;
+
           .WB_search_s {
             margin-top: 16px;
             margin-right: 16px; //原来是7px
@@ -265,22 +266,118 @@ body {
 // ------------------- 版式和颜色调整
 
 body {
-  .send_weibo {
-    margin-bottom:0;
-    border-radius: 2px 2px 0 0;
+  .WB_tab_a {
+    margin-bottom: 0;
   }
+
+  // 去掉下方阴影
+  .WB_tab_a .tab li.S_bg2 {
+    box-shadow:none;
+  }
+
   .WB_tab_a .tab_box .fr_box {
-    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    box-shadow:none;
+  }
+  .WB_tab_a .tab li:nth-child(2) .b .b1 em.l i {
+    border-bottom-left-radius:0;
   }
   .WB_tab_a .tab li:first-child, .WB_tab_a .tab li:nth-child(2) {
-    border-top-left-radius:0;
+    border-bottom-left-radius:0;
   }
-  .WB_tab_a .tab li:nth-child(2) .t {
-    border-top-left-radius:0;
+
+  .WB_tab_a .tab li.curr {
+    background-color:#fff;
   }
+
+  .WB_tab_a .tab li.S_bg2, .WB_tab_a .tab li.curr .b .b1 em i {
+    box-shadow: none;
+  }
+
   #v6_pl_content_homefeed > div {
     > .WB_tab_a {
-      box-shadow: -1px 0 0 rgba(0,0,0,0.04), 1px 0 0 rgba(0,0,0,0.04);
+      // box-shadow: -1px 0 0 rgba(0,0,0,0.04), 1px 0 0 rgba(0,0,0,0.04);
+      box-shadow:none;
     }
+  }
+
+  .WB_notes {
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius:0;
+    padding:0 10px 10px;
+    // background-color: #fff;
+
+    a {
+      background-color: #fff8bf;
+      border-radius: 2px;
+      height:40px !important;
+      line-height:40px !important;
+    }
+  }
+
+  .WB_notes a, .WB_notes .wrap {
+    height:40px !important;
+    line-height:40px !important;
+  }
+
+  .WB_feed {
+    > .WB_cardwrap:first-child {
+      border-radius:0 0 2px 2px;
+      box-shadow:-1px 0 0px rgba(0,0,0,0.04), 1px 0 0px rgba(0,0,0,0.04), 0 1px 0px rgba(0,0,0,0.04);
+      border-top:solid 1px #F2F2F5;
+    }
+  }
+}
+
+$c: #F2F2F5;
+
+// 合并后的页签背景色
+body {
+  .WB_tab_a .tab li {
+    background-color:$c;
+  }
+  .WB_tab_a .tab li a .t {
+    background-color:$c;
+  }
+  .WB_tab_a .tab li a .b {
+    opacity:0 !important;
+  }
+  .WB_tab_a .tab li.curr {
+    background-color:$c;
+  }
+  .WB_notes {
+    background-color:$c;
+  }
+  .WB_tab_a {
+    .tab_box_a {
+      .fr_box {
+        height:58px;
+        background-color:$c;
+      }
+    }
+  }
+
+  // #v6_pl_content_homefeed {
+  //   .WB_tab_a {
+  //     border-bottom: solid 1px #ddd;
+  //   }
+  // }
+
+  .WB_cardwrap[node-type=feed_list_timeTip] {
+    background-color: rgba(white, 0.8);
+    .WB_cardtitle_a {
+      height:40px;line-height:40px;
+      font-size:14px;
+    }
+  }
+}
+
+// 右侧栏区块标题栏颜色
+body {
+  .WB_cardtitle_b {
+    height:58px;line-height:58px;
+    background-color:$c;
+    border-radius:2px 2px 0 0;
   }
 }

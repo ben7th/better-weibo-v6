@@ -4,4 +4,4 @@ change-weibo-ui
 
 
 #### run
-`ruby -run -e httpd . -p 4000`
+ruby -run -e httpd . -p 4000
