@@ -1,0 +1,40 @@
+html.weibo_adjust_enabled {
+  body {
+    // 隐藏广告
+    // 右侧边栏第一个广告
+    #v6_pl_rightmod_recominfo {
+      > div[id] {
+        display: none !important;
+      }
+
+      > .WB_cardwrap.S_bg2:last-child {
+        display: none;
+      }
+    }
+    // 右侧边栏第二个广告
+    #v6_pl_rightmod_ads36 {
+      display: none !important;
+    }
+    // 会员专区和明星动态
+    #v6_trustPagelet_recom_member {
+      display: none !important;
+    }
+    // 发言框下面的广告
+    #v6_pl_content_biztips {
+      display: none !important;
+    }
+    // 发言框上面的热门微博
+    #v6_pl_content_publishertop {
+      .send_weibo .title_area .key {
+        display: none !important;
+      }
+    }
+
+    #v6_pl_rightmod_ads35 {
+      display: none !important;
+    }
+    #v6_pl_rightmod_ads36 {
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+html.weibo_adjust_enabled body #v6_pl_rightmod_recominfo > div[id] {
+  display: none !important; }
+html.weibo_adjust_enabled body #v6_pl_rightmod_recominfo > .WB_cardwrap.S_bg2:last-child {
+  display: none; }
+html.weibo_adjust_enabled body #v6_pl_rightmod_ads36 {
+  display: none !important; }
+html.weibo_adjust_enabled body #v6_trustPagelet_recom_member {
+  display: none !important; }
+html.weibo_adjust_enabled body #v6_pl_content_biztips {
+  display: none !important; }
+html.weibo_adjust_enabled body #v6_pl_content_publishertop .send_weibo .title_area .key {
+  display: none !important; }
+html.weibo_adjust_enabled body #v6_pl_rightmod_ads35 {
+  display: none !important; }
+html.weibo_adjust_enabled body #v6_pl_rightmod_ads36 {
+  display: none !important; }
+
+/*# sourceMappingURL=remove_ads.css.map */
