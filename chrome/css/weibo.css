@@ -102,9 +102,12 @@ html.weibo_adjust_enabled body .WB_feed_handle .WB_row_line {
 html.weibo_adjust_enabled body .WB_expand {
   padding: 16px; }
 html.weibo_adjust_enabled body .WB_left_nav .lev_Box h3.lev a {
-  font-size: 16px; }
+  font-size: 14px; }
 html.weibo_adjust_enabled body .WB_left_nav .lev a {
   font-size: 14px; }
+html.weibo_adjust_enabled body .WB_left_nav .lev .levtxt {
+  text-shadow: 0 0 3px rgba(136, 136, 136, 0.9);
+  overflow: visible; }
 html.weibo_adjust_enabled body #v6_pl_rightmod_noticeboard .WB_innerwrap {
   font-size: 14px; }
   html.weibo_adjust_enabled body #v6_pl_rightmod_noticeboard .WB_innerwrap .title a {
@@ -289,6 +292,8 @@ html.weibo_adjust_enabled body .WB_feed .WB_cardtitle_b {
   html.weibo_adjust_enabled body .WB_feed .WB_cardtitle_b .main_title {
     position: relative;
     top: 1px; }
+html.weibo_adjust_enabled body.B_page .WB_detail {
+  margin-left: 0; }
 html.weibo_adjust_enabled body.B_page .WB_tab_a .tab_box {
   height: 58px; }
 html.weibo_adjust_enabled body.B_page .WB_tab_a .tab li {
@@ -347,10 +352,11 @@ html.weibo_adjust_enabled body.B_page .WB_frame_b > #Pl_Core_UserInfo__4 .WB_car
 html.weibo_adjust_enabled body.B_page .PCD_counter table td {
   border: 0 none; }
   html.weibo_adjust_enabled body.B_page .PCD_counter table td .t_link {
-    height: 51px;
+    height: 52px;
     background-color: rgba(0, 0, 0, 0.06);
     margin-left: 3px;
-    margin-right: 3px; }
+    margin-right: 3px;
+    border-radius: 2px; }
     html.weibo_adjust_enabled body.B_page .PCD_counter table td .t_link strong {
       margin-top: 0;
       padding-top: 6px;

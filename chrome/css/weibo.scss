@@ -217,10 +217,14 @@ html.weibo_adjust_enabled {
   // 左边栏导航
   body {
     .WB_left_nav .lev_Box h3.lev a{
-      font-size:16px;
+      font-size:14px;
     }
     .WB_left_nav .lev a {
       font-size:14px;
+    }
+    .WB_left_nav .lev .levtxt {
+      text-shadow:0 0 3px rgba(#888, 0.9);
+      overflow:visible;
     }
   }
 
@@ -479,6 +483,10 @@ html.weibo_adjust_enabled {
 
   // ------ 个人页 ------------
   body.B_page {
+    .WB_detail {
+      margin-left: 0;
+    }
+
     .WB_tab_a .tab_box {
       height:58px;
     }
@@ -586,10 +594,11 @@ html.weibo_adjust_enabled {
     .PCD_counter table td {
       border:0 none;
       .t_link {
-        height:51px;
+        height:52px;
         background-color:$c;
         margin-left:3px;
         margin-right:3px;
+        border-radius:2px;
         strong {
           margin-top:0;
           padding-top:6px;
