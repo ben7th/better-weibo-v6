@@ -9,8 +9,8 @@
 如果你需要的是微博急简或 FaWave 那样整体大调功能特性的工具。那么请无视这个插件 :)
 
 ### 插件的下载地址
-https://github.com/ben7th/better-weibo-v6/raw/master/better_weibo.0.0.2.2.crx <br/>
-http://oss.aliyuncs.com/pie-documents/20141028/better_weibo.0.0.2.2.crx (备份)
+http://oss.aliyuncs.com/pie-documents/20141028/better_weibo_0.0.2.2_chrome.crx <br/>
+(请右键另存为来下载)
 
 ### 插件的安装方法
 在 chrome 菜单里点击 `工具 > 扩展程序` <br/>
