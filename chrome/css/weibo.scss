@@ -90,7 +90,7 @@ html.weibo_adjust_enabled {
 
         .cover {
           // height 原来是 75
-          height: 75px + 62px;
+          height: 75px + 61px;
 
           .headpic {
             $w:90px; // 原来是 60
@@ -137,16 +137,14 @@ html.weibo_adjust_enabled {
     ul.hot_topic {
       font-size: 14px;
     }
-    #v6_pl_rightmod_recominfo {
-      .WB_right_expand {
-        margin-top:10px;
-        margin-left:-6px;
-        margin-right:-6px;
-        .expand {
-          padding: 14px;
-          font-size: 14px;
-          line-height: 21px;
-        }
+    .WB_right_expand {
+      margin-top:10px;
+      margin-left:-6px;
+      margin-right:-6px;
+      .expand {
+        padding: 14px;
+        font-size: 14px;
+        line-height: 21px;
       }
     }
   }
@@ -278,12 +276,21 @@ html.weibo_adjust_enabled {
 
     .WB_tab_a .tab li.curr {
       // background-color:#fff;
-      span.t {
-        padding-bottom: 7px;
+
+      a {
+        position:relative;
+        &:after {
+          content:"";
+          position:absolute;
+          height:46px;width:48px;
+          background-color:rgba(#888, 0.2);
+          left:50%;margin-left:-24px;
+          bottom:6px;
+          border-radius:2px;
+        }
       }
-      span.b {
-        display: none;
-      }
+      span.t { padding-bottom: 7px; }
+      span.b { display: none; }
     }
 
     .WB_tab_a .tab li.S_bg2, .WB_tab_a .tab li.curr .b .b1 em i {
@@ -297,24 +304,24 @@ html.weibo_adjust_enabled {
       }
     }
 
+    $wb-h:48px;
     .WB_notes {
       margin-bottom: 0;
       margin-top: 0;
       border-radius:0;
-      padding:0 10px 10px;
+      padding:0 6px 6px;
       background-color: transparent;
       box-shadow:none;
       position:relative;
       @include with-bg;
-      height:40px;
+      height:$wb-h;
 
       a {
         z-index:2;
         position:absolute;
         background-color: #fff8bf;
         border-radius: 2px;
-        height:40px !important;top:0;left:10px;right:10px;
-        line-height:40px !important;
+        top:0;left:6px;right:6px;
         color:darken(#FFCC3F, 30%);
         font-size:14px;
         &:hover {
@@ -324,16 +331,16 @@ html.weibo_adjust_enabled {
       }
 
       + .WB_feed {
-        margin-top:-50px;
+        margin-top:- ($wb-h + 6px);
         .WB_cardwrap:first-child {
-          padding-top:50px;
+          padding-top:$wb-h + 6px;
         }
       }
     }
 
     .WB_notes a, .WB_notes .wrap {
-      height:40px !important;
-      line-height:40px !important;
+      height:$wb-h !important;
+      line-height:$wb-h !important;
     }
 
     .WB_feed {
@@ -345,7 +352,7 @@ html.weibo_adjust_enabled {
 
       > .WB_notes {
         margin-bottom: 0;
-        padding-top:10px;
+        padding-top:6px;
         position:relative;
         .wrap {
           background-color: #fff8bf;
@@ -355,8 +362,8 @@ html.weibo_adjust_enabled {
         }
 
         + .WB_cardwrap {
-          margin-top: -60px;
-          padding-top: 60px;
+          margin-top: - ($wb-h + 6px + 14px);
+          padding-top: $wb-h + 6px + 14px;
           border-radius: 0 0 2px 2px;
         }
       }
@@ -404,7 +411,7 @@ html.weibo_adjust_enabled {
   // 个人信息区块下方导航，颜色替换
   body {
     #v6_pl_rightmod_myinfo .W_person_info .WB_innerwrap .user_atten {
-      $h:51px;
+      $h:52px;
       margin-left:-13px;
       margin-right:-13px;
       height:$h;
@@ -663,6 +670,76 @@ html.weibo_adjust_enabled {
 
     .WB_expand {
       font-size: 14px;
+    }
+
+    // 某条微博下“其他人的转发”的样式
+    .WB_sonFeed .WB_face, .WB_sonFeed .WB_face .face img {
+      border-radius:100px;
+    }
+    .WB_sonFeed .WB_info, .WB_sonFeed .WB_text {
+      font-size: 14px;
+      padding-bottom: 6px;
+      display:block;
+      padding-top:0;
+    }
+    .WB_sonFeed .WB_handle.W_fr {
+      font-size: 14px;
+    }
+    .WB_feed_together .wft_hd .wft_info {
+      font-size: 14px;
+    }
+
+    // 右上角提示
+    .WB_global_nav .gn_topmenulist_tips {
+      font-size: 14px;
+    }
+  }
+
+  body.FRAME_message {
+    .WB_tab_a .tab_box {
+      height:58px;
+    }
+    .WB_tab_a .tab_box .fr_box {
+      height:58px;
+      .search_box {
+        margin-top: 11px;
+      }
+    }
+
+    .WB_tab_a .tab li {
+      height:58px;
+      @include with-bg;
+    }
+    .WB_tab_a .tab .t {
+      height:51px;
+      line-height:58px;
+      font-size:14px;
+    }
+    .WB_tab_a .curr a:after {
+      display:none;
+    }
+    .WB_tab_a .curr a:first-child {
+      position:relative;
+      &:after {
+        display:block;
+        content:"";
+        position:absolute;
+        height:46px;width:110px;
+        background-color:rgba(#888, 0.2);
+        left:14px;
+        bottom:6px;
+        border-radius:2px;
+      }
+    }
+    .WB_tab_a .tab .b {
+      display:none;
+      pointer-events:none;
+    }
+  }
+
+  body.B_page {
+    .WB_tab_a .curr a:after {
+      display:none;
     }
   }
 }
