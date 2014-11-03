@@ -742,4 +742,43 @@ html.weibo_adjust_enabled {
       display:none;
     }
   }
+
+  // 11月3号 bugfix
+  body {
+    div[node-type=feedconfig] {
+      .tab {
+        li.curr, li.li_first.S_bg2, li.li_last.S_bg2{
+          @include with-bg;
+        }
+      }
+
+      .WB_detail {
+        margin-left: 66px;
+      }
+    }
+
+    .WB_frame_b .PCD_counter .WB_innerwrap {
+      padding-bottom: 6px;
+    }
+
+    .PCD_person_info .verify_area {
+      padding:10px 16px 16px;
+    }
+
+    .PCD_text_b .ul_auto .li_1 .pt_title {
+      font-size: 14px;
+    }
+
+    .PCD_text_b .ul_auto .li_1 .pt_detail a {
+      font-size: 14px;
+    }
+
+    .PCD_text_e .m_wrap {
+      font-size: 14px;
+    }
+
+    .WB_feed_handle .WB_row_line .curr .arrow {
+      display: none;
+    }
+  }
 }

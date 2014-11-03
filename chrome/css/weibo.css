@@ -462,5 +462,30 @@ html.weibo_adjust_enabled body.FRAME_message .WB_tab_a .tab .b {
   pointer-events: none; }
 html.weibo_adjust_enabled body.B_page .WB_tab_a .curr a:after {
   display: none; }
+html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.curr, html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.li_first.S_bg2, html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.li_last.S_bg2 {
+  position: relative; }
+  html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.curr:before, html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.li_first.S_bg2:before, html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.li_last.S_bg2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.06);
+    pointer-events: none; }
+html.weibo_adjust_enabled body div[node-type=feedconfig] .WB_detail {
+  margin-left: 66px; }
+html.weibo_adjust_enabled body .WB_frame_b .PCD_counter .WB_innerwrap {
+  padding-bottom: 6px; }
+html.weibo_adjust_enabled body .PCD_person_info .verify_area {
+  padding: 10px 16px 16px; }
+html.weibo_adjust_enabled body .PCD_text_b .ul_auto .li_1 .pt_title {
+  font-size: 14px; }
+html.weibo_adjust_enabled body .PCD_text_b .ul_auto .li_1 .pt_detail a {
+  font-size: 14px; }
+html.weibo_adjust_enabled body .PCD_text_e .m_wrap {
+  font-size: 14px; }
+html.weibo_adjust_enabled body .WB_feed_handle .WB_row_line .curr .arrow {
+  display: none; }
 
 /*# sourceMappingURL=weibo.css.map */

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "better weibo v6",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "自动改良新浪微博 v6 界面样式",
 
   "page_action": {
