@@ -1,9 +1,7 @@
 html.weibo_adjust_enabled body .WB_feed_detail {
   padding: 16px 16px 16px 16px; }
-html.weibo_adjust_enabled body .WB_detail {
-  margin-left: 66px; }
-  html.weibo_adjust_enabled body .WB_detail .WB_info {
-    padding-top: 0; }
+html.weibo_adjust_enabled body .WB_detail .WB_info {
+  padding-top: 0; }
 html.weibo_adjust_enabled body #v6_pl_content_publishertop .send_weibo {
   padding: 16px;
   height: auto;
@@ -473,7 +471,7 @@ html.weibo_adjust_enabled body div[node-type=feedconfig] .tab li.curr, html.weib
     left: 0;
     background-color: rgba(0, 0, 0, 0.06);
     pointer-events: none; }
-html.weibo_adjust_enabled body div[node-type=feedconfig] .WB_detail {
+html.weibo_adjust_enabled body .WB_face + .WB_detail {
   margin-left: 66px; }
 html.weibo_adjust_enabled body .WB_frame_b .PCD_counter .WB_innerwrap {
   padding-bottom: 6px; }
@@ -487,5 +485,7 @@ html.weibo_adjust_enabled body .PCD_text_e .m_wrap {
   font-size: 14px; }
 html.weibo_adjust_enabled body .WB_feed_handle .WB_row_line .curr .arrow {
   display: none; }
+html.weibo_adjust_enabled body .WB_info, html.weibo_adjust_enabled body .WB_text {
+  font-size: 14px; }
 
 /*# sourceMappingURL=weibo.css.map */

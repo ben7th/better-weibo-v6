@@ -18,11 +18,8 @@ html.weibo_adjust_enabled {
     .WB_feed_detail {
       padding: 16px 16px 16px 16px;
     }
-    .WB_detail {
-      margin-left: 66px;
-      .WB_info {
-        padding-top: 0;
-      }
+    .WB_detail .WB_info {
+      padding-top: 0;
     }
 
     // 调整发言框区块内间距
@@ -751,10 +748,10 @@ html.weibo_adjust_enabled {
           @include with-bg;
         }
       }
+    }
 
-      .WB_detail {
-        margin-left: 66px;
-      }
+    .WB_face + .WB_detail {
+      margin-left: 66px;
     }
 
     .WB_frame_b .PCD_counter .WB_innerwrap {
@@ -779,6 +776,10 @@ html.weibo_adjust_enabled {
 
     .WB_feed_handle .WB_row_line .curr .arrow {
       display: none;
+    }
+
+    .WB_info, .WB_text {
+      font-size: 14px;
     }
   }
 }

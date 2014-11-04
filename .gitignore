@@ -31,3 +31,4 @@ config/secrets.yml
 bower.json
 
 .sass-cache
+chrome.zip

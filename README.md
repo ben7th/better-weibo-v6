@@ -8,11 +8,15 @@
 特别注明：这个插件只是进行样式细节的许多微调。<br/>
 如果你需要的是微博急简或 FaWave 那样整体大调功能特性的工具。那么请无视这个插件 :)
 
-**目前最新版本 0.0.4**
+**目前最新版本 0.0.4.2**
 
 ### 插件的下载地址
-http://oss.aliyuncs.com/pie-documents/20141028/better_weibo_0.0.4.crx <br/>
+http://oss.aliyuncs.com/pie-documents/20141028/better_weibo_0.0.4.2.crx <br/>
 (请右键另存为来下载)
+
+**google 应用商店地址**<br/>
+https://chrome.google.com/webstore/detail/better-weibo-v6/cnjhghfombeaadgalejoedpfhgmoohlh
+
 
 ### 插件的安装方法
 在 chrome 菜单里点击 `工具 > 扩展程序` <br/>
@@ -60,6 +64,14 @@ http://oss.aliyuncs.com/pie-documents/20141028/better_weibo_0.0.4.crx <br/>
 
 ### changelog
 
+0.0.4.2
+- 修正了不同页面下存在的正文左边距不正确的问题
+- 修正了部分页面的字号过小问题
+
+0.0.4
+- 消除了每条微博“评论”点开后的多余小三角
+- 调整了“热门话题”中的标签栏背景色和右上角“阅读·讨论·粉丝”区域的边距问题
+
 0.0.3
 - 修正了热门话题栏中，带有详情泡泡区块的话题下区块中的行高问题；
 - 给首页的第一条微博上方的导航条链接增加了更有区分度的样式
@@ -67,7 +79,3 @@ http://oss.aliyuncs.com/pie-documents/20141028/better_weibo_0.0.4.crx <br/>
 - 调整了右上角浮动提示的字体大小
 - 改进了“@我的”“评论”“赞”三个页面的过滤组件样式
 - 修改了一个关于插件图标状态切换的 BUG
-
-0.0.4
-- 消除了每条微博“评论”点开后的多余小三角
-- 调整了“热门话题”中的标签栏背景色和右上角“阅读·讨论·粉丝”区域的边距问题
