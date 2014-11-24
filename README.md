@@ -64,6 +64,11 @@ https://chrome.google.com/webstore/detail/better-weibo-v6/cnjhghfombeaadgalejoed
 
 ### changelog
 
+0.0.4.3
+- 由于微博原始界面调整了个人页区块间距，本插件进行了相应的一些调整以适配
+- 由于“发现”界面已经套用了v6样式，本插件针对此页面进行相应的适配
+- 修正了一些零碎的间距问题
+
 0.0.4.2
 - 修正了不同页面下存在的正文左边距不正确的问题
 - 修正了部分页面的字号过小问题

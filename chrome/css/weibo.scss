@@ -552,7 +552,7 @@ html.weibo_adjust_enabled {
     #plc_main {
       > .WB_frame_b {
         width:310px;
-        margin-right: 10px;
+        margin-right: 17px;
       }
       > .WB_frame_c + .WB_frame_b {
         width:310px;
@@ -780,6 +780,37 @@ html.weibo_adjust_enabled {
 
     .WB_info, .WB_text {
       font-size: 14px;
+    }
+  }
+
+  // 11月24号 bugfix
+  body {
+    .B_discover .WB_frame_c {
+      margin-right: 15px;
+    }
+    .B_discover .WB_tab_a .tab li.curr a::after {
+      width:62px;
+      margin-left: -38px;
+    }
+    .B_discover {
+      .WB_tab_a .tab_box {
+        height:58px;
+      }
+      .WB_tab_a .tab li {
+        height:58px;
+        font-size:14px;
+      }
+      .WB_tab_a .tab .t {
+        height:51px;
+        line-height:58px;
+      }
+      .WB_tab_a .tab_box .fr_box {
+        height:58px;
+      }
+      .WB_tab_a .WB_search_s {
+        margin-top:16px;
+        margin-right:16px;
+      }
     }
   }
 }

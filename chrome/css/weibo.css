@@ -336,7 +336,7 @@ html.weibo_adjust_enabled body.B_page .WB_frame_a .PCD_tab {
   margin-bottom: 10px; }
 html.weibo_adjust_enabled body.B_page #plc_main > .WB_frame_b {
   width: 310px;
-  margin-right: 10px; }
+  margin-right: 17px; }
 html.weibo_adjust_enabled body.B_page #plc_main > .WB_frame_c + .WB_frame_b {
   width: 310px;
   margin-left: -10px; }
@@ -487,5 +487,21 @@ html.weibo_adjust_enabled body .WB_feed_handle .WB_row_line .curr .arrow {
   display: none; }
 html.weibo_adjust_enabled body .WB_info, html.weibo_adjust_enabled body .WB_text {
   font-size: 14px; }
-
-/*# sourceMappingURL=weibo.css.map */
+html.weibo_adjust_enabled body .B_discover .WB_frame_c {
+  margin-right: 15px; }
+html.weibo_adjust_enabled body .B_discover .WB_tab_a .tab li.curr a::after {
+  width: 62px;
+  margin-left: -38px; }
+html.weibo_adjust_enabled body .B_discover .WB_tab_a .tab_box {
+  height: 58px; }
+html.weibo_adjust_enabled body .B_discover .WB_tab_a .tab li {
+  height: 58px;
+  font-size: 14px; }
+html.weibo_adjust_enabled body .B_discover .WB_tab_a .tab .t {
+  height: 51px;
+  line-height: 58px; }
+html.weibo_adjust_enabled body .B_discover .WB_tab_a .tab_box .fr_box {
+  height: 58px; }
+html.weibo_adjust_enabled body .B_discover .WB_tab_a .WB_search_s {
+  margin-top: 16px;
+  margin-right: 16px; }
