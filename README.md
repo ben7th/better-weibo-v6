@@ -11,7 +11,7 @@
 **目前最新版本 0.0.4.2**
 
 ### 插件的下载地址
-http://oss.aliyuncs.com/pie-documents/20141028/better_weibo_0.0.4.2.crx <br/>
+http://oss.aliyuncs.com/pie-documents/20141124/better_weibo_0.0.4.3.crx <br/>
 (请右键另存为来下载)
 
 **google 应用商店地址**<br/>
