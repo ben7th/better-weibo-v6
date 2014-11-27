@@ -64,6 +64,9 @@ https://chrome.google.com/webstore/detail/better-weibo-v6/cnjhghfombeaadgalejoed
 
 ### changelog
 
+0.0.4.4
+- 微博又把个人页的区块间距调回去了。。所以本插件版面乱掉了。。好吧，跟着调回去。
+
 0.0.4.3
 - 由于微博原始界面调整了个人页区块间距，本插件进行了相应的一些调整以适配
 - 由于“发现”界面已经套用了v6样式，本插件针对此页面进行相应的适配

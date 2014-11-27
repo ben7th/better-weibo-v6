@@ -336,7 +336,7 @@ html.weibo_adjust_enabled body.B_page .WB_frame_a .PCD_tab {
   margin-bottom: 10px; }
 html.weibo_adjust_enabled body.B_page #plc_main > .WB_frame_b {
   width: 310px;
-  margin-right: 17px; }
+  margin-right: 10px; }
 html.weibo_adjust_enabled body.B_page #plc_main > .WB_frame_c + .WB_frame_b {
   width: 310px;
   margin-left: -10px; }
