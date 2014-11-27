@@ -8,10 +8,10 @@
 特别注明：这个插件只是进行样式细节的许多微调。<br/>
 如果你需要的是微博急简或 FaWave 那样整体大调功能特性的工具。那么请无视这个插件 :)
 
-**目前最新版本 0.0.4.2**
+**目前最新版本 0.0.4.4**
 
 ### 插件的下载地址
-http://oss.aliyuncs.com/pie-documents/20141124/better_weibo_0.0.4.3.crx <br/>
+http://oss.aliyuncs.com/pie-documents/20141124/better_weibo_0.0.4.4.crx <br/>
 (请右键另存为来下载)
 
 **google 应用商店地址**<br/>
